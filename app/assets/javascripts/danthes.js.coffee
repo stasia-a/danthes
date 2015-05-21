@@ -99,9 +99,8 @@ window.Danthes = class Danthes
       @subscriptions[channel]['opts'] =
         signature: options['signature']
         timestamp: options['timestamp']
-      # If we have 'connect' or 'error' option then force channel activation
-      if options['connect']? || options['error']?
-        @activateChannel channel, options
+
+      @activateChannel channel, options
 
   # Activating channel subscription
   # @param channel [String] channel name

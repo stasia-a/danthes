@@ -5,9 +5,9 @@ Gem::Specification.new do |s|
   s.name        = 'danthes'
   s.version     = Danthes::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.author      = ['Alexander Simonov']
-  s.email       = ['alex@simonov.me']
-  s.homepage    = 'http://github.com/dotpromo/danthes'
+  s.author      = ['Anastasia Charushina']
+  s.email       = ['stasia.charushuna@gmail.com']
+  s.homepage    = 'http://github.com/stasia-a/danthes'
   s.summary     = 'Private pub/sub messaging through Faye.'
   s.description = 'Private pub/sub messaging in Rails through Faye. More Faye features supported. Based on PrivatePub.'
   s.files         = `git ls-files`.split($OUTPUT_RECORD_SEPARATOR)
